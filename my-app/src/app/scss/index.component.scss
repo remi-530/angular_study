@@ -1,0 +1,35 @@
+@import 'mixin';
+@import 'variables';
+
+main {
+    @include content-area;
+    padding: 130px 0;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+}
+
+.right {
+    max-width: 340px;
+
+    .profile {
+        img {
+            width: 130px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+    
+        .name {
+            text-align: center;
+            font-weight: bold;
+            margin: 30px 0;
+        }
+
+        .text {
+            font-size: $font-size-m;
+        }
+    }
+}

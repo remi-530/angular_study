@@ -1,0 +1,9 @@
+@mixin content-area {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@mixin width100 {
+    width: 100%;
+}

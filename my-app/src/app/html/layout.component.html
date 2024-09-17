@@ -1,0 +1,43 @@
+<header  class="header">
+    <div class="top-title">
+        <p>Travel Blog</p>
+    </div>
+    <div class="nav">
+        <nav>
+            <a routerLink="/index">NEW</a>
+            <a routerLink="/index">COLUMN</a>
+            <a routerLink="/index">SERIES</a>
+            <a routerLink="/index">Q&A</a>
+            <a routerLink="/index">CONTACT</a>
+        </nav>
+    </div>
+</header>
+
+<router-outlet />
+
+<footer class="footer">
+    <div class="footer-area">
+        <div class="flex-content">
+            <div class="about">
+                <h4>About</h4>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <div class="child-menu">
+                    <f-about title="プロフィール詳細" />
+                    <f-about title="お仕事の依頼" />
+                    <f-about title="お問い合わせ" />
+                </div>
+            </div>
+            <div class="menu">
+                <h4>Menu</h4>
+                <f-menu />
+            </div>
+            <div class="twitter">
+                <h4>Twitter</h4>
+                <a class="twitter-timeline" data-lang="ja" data-width="350" data-height="320" href="https://twitter.com/X?ref_src=twsrc%5Etfw">Tweets by X</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+        <div class="footer-p">
+            <p>© Travel & Blog</p>
+        </div>
+    </div>
+</footer>
